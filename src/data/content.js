@@ -112,6 +112,7 @@ export const content = {
       address: "Dhaka, Bangladesh",
       services: "Services",
       social: "Follow Us"
+<<<<<<< HEAD
     },
     
     // About Page
@@ -164,6 +165,8 @@ export const content = {
         title: "Ready to Start Your Project?",
         subtitle: "Let's discuss your construction needs and create something amazing together."
       }
+=======
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
     }
   },
   
@@ -178,7 +181,11 @@ export const content = {
     
     // Homepage
     hero: {
+<<<<<<< HEAD
       name: "মোঃ আশরাফুল",
+=======
+      name: "মোঃ রহমান আহমেদ",
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
       title: "পেশাদার নির্মাতা ও ডিজাইনার",
       subtitle: "স্বপ্ন নির্মাণ, ঘর সৃষ্টি",
       bio: "নির্মাণ ও ভবন ডিজাইনে ১০ বছরের অভিজ্ঞতা নিয়ে, আমি বাংলাদেশ জুড়ে মানসম্পন্ন ১-২ তলা বাড়ি তৈরিতে বিশেষজ্ঞ। ভিত্তি থেকে শেষ পর্যন্ত, আমি নিশ্চিত করি যে প্রতিটি প্রকল্প সর্বোচ্চ মানের।",
@@ -274,11 +281,16 @@ export const content = {
     // Footer
     footer: {
       contact: "যোগাযোগের তথ্য",
+<<<<<<< HEAD
       phone: "+৮৮০১৭১৬৭১৮০২০", 
+=======
+      phone: "+৮৮০ ১XXX-XXXXXX", 
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
       email: "Info@Ghorbaribuilders.com",
       address: "ঢাকা, বাংলাদেশ",
       services: "সেবাসমূহ",
       social: "আমাদের ফলো করুন"
+<<<<<<< HEAD
     },
     
     // About Page
@@ -331,6 +343,8 @@ export const content = {
         title: "আপনার প্রকল্প শুরু করতে প্রস্তুত?",
         subtitle: "আসুন আপনার নির্মাণ প্রয়োজন নিয়ে আলোচনা করি এবং একসাথে অসাধারণ কিছু তৈরি করি।"
       }
+=======
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
     }
   }
 };
@@ -351,7 +365,11 @@ export const projects = [
     cost: "৳ 25,00,000",
     client: "Karim Hassan",
     services: ["Foundation", "Construction", "Design"],
+<<<<<<< HEAD
     images: ["/assets/modern-house-1.webp", "/assets/modern-house-2.jpg"]
+=======
+    images: ["/api/placeholder/600/400", "/api/placeholder/600/400"]
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
   },
   {
     id: 2, 
@@ -367,7 +385,11 @@ export const projects = [
     cost: "৳ 18,00,000", 
     client: "Fatima Begum",
     services: ["Design", "Construction"],
+<<<<<<< HEAD
     images: ["/assets/modern-house-1.webp", "/assets/modern-house-2.jpg"]
+=======
+    images: ["/api/placeholder/600/400", "/api/placeholder/600/400"]
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
   },
   {
     id: 3,
@@ -383,7 +405,11 @@ export const projects = [
     cost: "৳ 12,00,000",
     client: "Abdul Malik", 
     services: ["Foundation", "Structure"],
+<<<<<<< HEAD
     images: ["/assets/modern-house-1.webp", "/assets/modern-house-2.jpg"]
+=======
+    images: ["/api/placeholder/600/400", "/api/placeholder/600/400"]
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
   }
 ];
 

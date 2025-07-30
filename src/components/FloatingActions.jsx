@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, Phone, ChevronUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -43,16 +44,39 @@ const FloatingActions = () => {
         aria-label="Contact via WhatsApp"
       >
         <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
+=======
+import React from 'react';
+import { MessageCircle, Phone } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+
+const FloatingActions = () => {
+  return (
+    <div className="fixed bottom-6 right-6 z-50 flex flex-col space-y-3">
+      {/* WhatsApp Button */}
+      <Button
+        size="lg"
+        className="w-14 h-14 rounded-full bg-green-500 hover:bg-green-600 shadow-lg hover:shadow-xl transition-all duration-300 p-0"
+        onClick={() => window.open("https://wa.me/8801716718020?text=Hello, I am interested in your construction services", "_blank")}
+      >
+        <MessageCircle className="w-6 h-6" />
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
       </Button>
 
       {/* Call Button */}
       <Button
         size="lg"
+<<<<<<< HEAD
         className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-orange-500 hover:bg-orange-600 shadow-lg hover:shadow-xl transition-all duration-300 p-0 mobile-focus touch-target"
         onClick={() => window.open("tel:+8801716718020")}
         aria-label="Call now"
       >
         <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
+=======
+        className="w-14 h-14 rounded-full bg-orange-500 hover:bg-orange-600 shadow-lg hover:shadow-xl transition-all duration-300 p-0"
+        onClick={() => window.open("tel:+8801716718020")}
+      >
+        <Phone className="w-6 h-6" />
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
       </Button>
     </div>
   );

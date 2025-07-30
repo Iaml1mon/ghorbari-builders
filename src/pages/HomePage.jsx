@@ -28,6 +28,7 @@ const HomePage = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
+<<<<<<< HEAD
       <section className="relative bg-gradient-to-br from-orange-50 to-blue-50 mobile-hero">
         <div className="max-w-7xl mx-auto mobile-container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -41,11 +42,27 @@ const HomePage = () => {
                   {t.hero.title}
                 </h2>
                 <p className="mobile-body text-gray-600 leading-relaxed">
+=======
+      <section className="relative bg-gradient-to-br from-orange-50 to-blue-50 py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Hero Content */}
+            <div className="space-y-8">
+              <div className="space-y-4">
+                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                  {t.hero.name}
+                </h1>
+                <h2 className="text-xl md:text-2xl text-orange-600 font-semibold">
+                  {t.hero.title}
+                </h2>
+                <p className="text-lg text-gray-600 leading-relaxed">
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
                   {t.hero.bio}
                 </p>
               </div>
 
               {/* Trust Badges */}
+<<<<<<< HEAD
               <div className="flex flex-wrap gap-3 sm:gap-4">
                 <Badge variant="secondary" className="px-3 sm:px-4 py-2 text-sm mobile-hover">
                   <Award className="w-4 h-4 mr-2" />
@@ -56,6 +73,18 @@ const HomePage = () => {
                   {t.trust.projects}
                 </Badge>
                 <Badge variant="secondary" className="px-3 sm:px-4 py-2 text-sm mobile-hover">
+=======
+              <div className="flex flex-wrap gap-4">
+                <Badge variant="secondary" className="px-4 py-2 text-sm">
+                  <Award className="w-4 h-4 mr-2" />
+                  {t.trust.experience}
+                </Badge>
+                <Badge variant="secondary" className="px-4 py-2 text-sm">
+                  <CheckCircle className="w-4 h-4 mr-2" />
+                  {t.trust.projects}
+                </Badge>
+                <Badge variant="secondary" className="px-4 py-2 text-sm">
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
                   <Users className="w-4 h-4 mr-2" />
                   {t.trust.clients}
                 </Badge>
@@ -65,7 +94,11 @@ const HomePage = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
                   size="lg" 
+<<<<<<< HEAD
                   className="bg-orange-600 hover:bg-orange-700 mobile-button mobile-focus touch-target"
+=======
+                  className="bg-orange-600 hover:bg-orange-700 text-lg px-8 py-3"
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
                   asChild
                 >
                   <Link to="/quote">
@@ -76,7 +109,11 @@ const HomePage = () => {
                 <Button 
                   variant="outline" 
                   size="lg"
+<<<<<<< HEAD
                   className="mobile-button mobile-focus touch-target"
+=======
+                  className="text-lg px-8 py-3"
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
                   asChild
                 >
                   <Link to="/projects">
@@ -87,6 +124,7 @@ const HomePage = () => {
             </div>
 
             {/* Hero Image */}
+<<<<<<< HEAD
             <div className="relative mobile-fade-in">
               <img 
                 src="/assets/md_asraful_photo_optimized.png" 
@@ -95,6 +133,12 @@ const HomePage = () => {
               />
               {/* Floating elements */}
               <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 bg-orange-500 text-white px-3 sm:px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+=======
+            <div className="relative">
+              <img src="/src/assets/md_asraful_photo.jpg" alt="Md Asraful" className="w-full h-full object-cover rounded-2xl shadow-2xl" />
+              {/* Floating elements */}
+              <div className="absolute -top-4 -right-4 bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
                 {t.trust.quality}
               </div>
             </div>
@@ -118,15 +162,25 @@ const HomePage = () => {
             {t.services.items.map((service, index) => {
               const IconComponent = serviceIcons[service.icon];
               return (
+<<<<<<< HEAD
                 <Card key={index} className="group hover-lift border-2 hover:border-orange-200 transition-all duration-300 mobile-card-spacing">
                   <CardContent className="p-6 sm:p-8 text-center">
                     <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-200 transition-colors animate-scale-in">
+=======
+                <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-orange-200">
+                  <CardContent className="p-8 text-center">
+                    <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-200 transition-colors">
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
                       <IconComponent className="w-8 h-8 text-orange-600" />
                     </div>
                     <h3 className="text-xl font-semibold text-gray-900 mb-4">
                       {service.title}
                     </h3>
+<<<<<<< HEAD
                     <p className="text-gray-600 leading-relaxed mobile-body">
+=======
+                    <p className="text-gray-600 leading-relaxed">
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
                       {service.description}
                     </p>
                   </CardContent>

@@ -118,6 +118,7 @@
     @apply bg-background text-foreground;
   }
 }
+<<<<<<< HEAD
 
 /* Mobile-first responsive enhancements */
 @layer utilities {
@@ -590,3 +591,5 @@
   }
 }
 
+=======
+>>>>>>> cd76d7d89ef093c840d8c6ddc4dc670b6ee42459
