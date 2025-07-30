@@ -24,7 +24,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/src/assets/ghorbaribuilders_logo.png" alt="Ghorbari Builders Logo" className="h-10" />
+            <img src="public/ghorbaribuilders_logo.png" alt="Ghorbari Builders Logo" className="h-10" />
             <div className="hidden sm:block">
               <div className="text-lg font-bold text-gray-900">{t.hero.name}</div>
               <div className="text-xs text-gray-600">{t.hero.title}</div>
